@@ -1,6 +1,6 @@
 baseURL: https://finecho.cn/ # 绑定的域名
 languageCode: zh # en-us
-title: Sulv's Blog
+title: Finecho's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 
 googleAnalytics:  # 谷歌统计
-# Copyright: Sulv
+# Copyright: Finecho
 
 paginate: 15    # 首页每页显示的文章数
 summaryLength: 140 # 文章概览的自字数，默认70
@@ -100,7 +100,7 @@ params:
     title: (〃'▽'〃)
     subtitle:
     # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "https://finecho.cn/img/Q.gif"
+    imageUrl: "https://finecho.cn/img/finecho.jpeg"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
@@ -118,15 +118,15 @@ params:
     - name: github
       url: "https://github.com/thisliu"
     - name: twitter
-      url: "https://finecho.cn/img/twitter.png"
+      url: "#"
     - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
+      url: "#"
     - name: instagram
-      url: "https://finecho.cn/img/instagram.png"
+      url: "#"
     - name: QQ
-      url: "https://finecho.cn/img/qq.png"
+      url: "#"
     - name: WeChat
-      url: "https://finecho.cn/img/wechat.png"
+      url: "#"
     - name: email
       url: "mailto:liuhao25@foxmail.com"
     - name: RSS
@@ -134,7 +134,7 @@ params:
 
   label: # 左上角图标
     text: "Finecho's Blog"
-    icon: "https://finecho.cn/img/Q.gif"
+    icon: "https://finecho.cn/img/finecho.jpeg"
     iconHeight: 35
 
   analytics:
@@ -142,11 +142,11 @@ params:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "https://finecho.cn/img/Q.gif"
-    favicon16x16: "https://finecho.cn/img/Q.gif"
-    favicon32x32: "https://finecho.cn/img/Q.gif"
-    apple_touch_icon: "https://finecho.cn/img/Q.gif"
-    safari_pinned_tab: "https://finecho.cn/img/Q.gif"
+    favicon: "https://finecho.cn/img/finecho.jpeg"
+    favicon16x16: "https://finecho.cn/img/finecho.jpeg"
+    favicon32x32: "https://finecho.cn/img/finecho.jpeg"
+    apple_touch_icon: "https://finecho.cn/img/finecho.jpeg"
+    safari_pinned_tab: "https://finecho.cn/img/finecho.jpeg"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -163,10 +163,10 @@ params:
     minMatchCharLength: 0
     keys: [ "title", "permalink", "summary" ]
 
-  StartYear: 2024 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
+#  StartYear: 2024 # 底部开始年份
+  FilingNo: "" # 底部备案号
   PublicSecurityIconLink: "https://finecho.cn/img/beian.png" # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
-  PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
+  PublicNetworkSecurity: "" # 底部公网安备号
 
   Reward: false #打赏是否开启
   # 打赏微信图片地址，
