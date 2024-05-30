@@ -1,4 +1,4 @@
-baseURL: https://xyming108.github.io/ # 绑定的域名
+baseURL: https://finecho.cn/ # 绑定的域名
 languageCode: zh # en-us
 title: Sulv's Blog
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
@@ -100,7 +100,7 @@ params:
     title: (〃'▽'〃)
     subtitle:
     # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-    imageUrl: "img/Q.gif"
+    imageUrl: "https://finecho.cn/img/Q.gif"
     imageTitle:
     imageWidth: 150
     imageHeight: 150
@@ -116,27 +116,25 @@ params:
 
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
+      url: "https://github.com/thisliu"
     - name: twitter
-      url: "img/twitter.png"
+      url: "https://finecho.cn/img/twitter.png"
     - name: facebook
       url: "https://www.facebook.com/profile.php?id=100027782410997"
     - name: instagram
-      url: "img/instagram.png"
+      url: "https://finecho.cn/img/instagram.png"
     - name: QQ
-      url: "img/qq.png"
+      url: "https://finecho.cn/img/qq.png"
     - name: WeChat
-      url: "img/wechat.png"
-    - name: bilibili
-      url: "https://space.bilibili.com/234461224"
+      url: "https://finecho.cn/img/wechat.png"
     - name: email
-      url: "mailto:1931559710@qq.com"
+      url: "mailto:liuhao25@foxmail.com"
     - name: RSS
       url: "index.xml"
 
   label: # 左上角图标
-    text: "Sulv's Blog"
-    icon: "img/Q.gif"
+    text: "Finecho's Blog"
+    icon: "https://finecho.cn/img/Q.gif"
     iconHeight: 35
 
   analytics:
@@ -144,11 +142,11 @@ params:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "https://finecho.cn/img/Q.gif"
+    favicon16x16: "https://finecho.cn/img/Q.gif"
+    favicon32x32: "https://finecho.cn/img/Q.gif"
+    apple_touch_icon: "https://finecho.cn/img/Q.gif"
+    safari_pinned_tab: "https://finecho.cn/img/Q.gif"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -165,17 +163,17 @@ params:
     minMatchCharLength: 0
     keys: [ "title", "permalink", "summary" ]
 
-  StartYear: 2020 # 底部开始年份
+  StartYear: 2024 # 底部开始年份
   FilingNo: 填写自己的备案号 # 底部备案号
-  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  PublicSecurityIconLink: "https://finecho.cn/img/beian.png" # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
   PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
 
-  Reward: true #打赏是否开启
+  Reward: false #打赏是否开启
   # 打赏微信图片地址，
   # 可用绝对和相对地址，相对地址的图片需放在static/img下，
   # 填写格式为img/wechat_pay.png
-  WechatPay: img/wechat_pay.png
-  Alipay: img/alipay.png #打赏支付宝图片地址
+  WechatPay: https://finecho.cn/img/wechat_pay.png
+  Alipay: https://finecho.cn/img/alipay.png #打赏支付宝图片地址
 
   # twikoo评论
   twikoo:
